@@ -25,7 +25,7 @@ app.use('/user',require('./routes/userRouter' ))
 
 
 const URI = "mongodb+srv://admin:admin@cluster0.zlpey.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-           // "mongodb+srv://grocery:admin123@grocery.yqllp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"   main production database
+           
 
 
 mongoose.connect(URI, {
